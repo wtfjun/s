@@ -1,0 +1,31 @@
+.index-bottom .ant-row{
+	display: none;
+}
+.index-item {
+	width: 25%;
+	float: left;
+	background: #F2F4F5;
+	text-align: center;
+	padding: 20px 0;
+	border: 1px solid #ebebeb;
+	height: 220px;
+}
+.index-item h2 {
+	color: #000;
+}
+
+.index-item p {
+	color: #C0C2C2;
+}
+.index-item img {
+	width: 120px;
+	margin-top: 20px;
+}
+
+.ant-carousel .slick-initialized .slick-slide  {
+	height: 600px;
+}
+
+nav .bottom li:nth-child(2){ 
+	// display: none;
+}

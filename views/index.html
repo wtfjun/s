@@ -8,16 +8,32 @@
     <meta name="author" content="baiyanyun"/>
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="/dist/css/bundle.css">
+    <link rel="stylesheet" href="/dist/css/app.css">
     <!-- Polyfills -->
     <!--[if lt IE 10]>
     <script src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,es5-shim/4.5.7/es5-shim.min.js,es5-shim/4.5.7/es5-sham.min.js,html5shiv/3.7.2/html5shiv.min.js,media-match/2.0.2/media.match.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
     <div id="init"></div>
     <script src="/dist/js/vendors.js"></script>
     <script src="/dist/js/bundle.js"></script>
+    <script src="/dist/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.index-bottom').append('<a href="/intro" class="index-item"><h2>中心介绍</h2><p>去哪 一目了然</p><img src="/dist/img/zxjs.jpg" /></a>')
+        $('.index-bottom').append('<a href="/news/1" class="index-item"><h2>新闻公告</h2><p>对待NEWS 从不奔放</p><img src="/dist/img/xinwen.png" /></a>')
+        $('.index-bottom').append('<a href="/business" class="index-item"><h2>事务咨询</h2><p>问尽你想</p><img src="/dist/img/shiwu.png" /></div>')
+        $('.index-bottom').append('<a href="news/5" class="index-item"><h2>办事指南</h2><p>方向比速度更重要</p><img src="/dist/img/zhinan.png" /></a>')
+        $('.index-bottom').append('<a href="/news/3" class="index-item"><h2>校园信息</h2><p>放大你所不见</p><img src="/dist/img/xiaoyuan.png" /></a>')
+        $('.index-bottom').append('<a href="/news/6" class="index-item"><h2>资料下载</h2><p>无限 无繁琐 只有你最想要</p><img src="/dist/img/xiazai.png" /></a>')
+        $('.index-bottom').append('<a href="/news/4" class="index-item"><h2>常见问题</h2><p>不套路 只走心</p><img src="/dist/img/wenti.png" /></div>')
+        $('.index-bottom').append('<div class="index-item"><h2>常见链接</h2><p>1秒到达下一站</p><img src="/dist/img/lianjie.png" /></div>')
+
+
+        $('nav .bottom li:nth-child(2)').html('<a href="/" class="active">首页</a>')
+    </script>
 </body>
 
 </html>
